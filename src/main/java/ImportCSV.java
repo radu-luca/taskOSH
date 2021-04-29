@@ -16,7 +16,7 @@ public class ImportCSV {
 
     public static void importData(Connection connection) throws IOException, CsvValidationException, SQLException {
         int nrSuccessful = 0, nrUnsuccessful = 0;
-        File file = new File(badDataUrl);
+        File file = new File("./logs/"+badDataUrl);
         file.createNewFile();
         FileWriter outputfile = new FileWriter(file);
         CSVWriter writer = new CSVWriter(outputfile);

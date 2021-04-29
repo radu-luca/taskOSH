@@ -1,0 +1,10 @@
+Thu Apr 29 19:01:34 EEST 2021
+6002 of records received
+5996 of records successful
+5996 of records failed
+
+Thu Apr 29 19:01:51 EEST 2021
+6002 of records received
+5996 of records successful
+5996 of records failed
+

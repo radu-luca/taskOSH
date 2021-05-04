@@ -14,7 +14,7 @@ If you have a local database at another address, run the script `script.sql` to 
 First I used the maven framework to access the [sqlite Driver](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc), and to work efficiently with CSV files I used [OpenCSV](https://mvnrepository.com/artifact/com.opencsv/opencsv) .
 
 
-After I got a connection to the database, I set auto commit off because I will commit manually after all insert to increase the speed. Also I used only one prepared statement fro insert to increase the performance. 
+After I got a connection to the database, I set auto commit off because I will commit manually after all insert to increase the speed. Also I used only one prepared statement for insert to increase the performance. 
 
 
 I used the DAO pattern for a object-oriented model of the data managed. 
